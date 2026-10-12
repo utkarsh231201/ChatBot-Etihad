@@ -1,0 +1,27 @@
+# Secrets / environment
+.env
+.env.*
+.env.example
+*.pem
+*.key
+
+# Local databases and vector stores (may contain user data)
+data/chroma/
+data/sqlite/
+*.sqlite
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,58 @@
+[
+  {
+    "chunk_size": 500,
+    "overlap": 100,
+    "reranker": false,
+    "recall@k": 0.857,
+    "mrr": 0.786
+  },
+  {
+    "chunk_size": 500,
+    "overlap": 100,
+    "reranker": true,
+    "recall@k": 0.857,
+    "mrr": 0.857
+  },
+  {
+    "chunk_size": 1000,
+    "overlap": 200,
+    "reranker": false,
+    "recall@k": 0.857,
+    "mrr": 0.571
+  },
+  {
+    "chunk_size": 1000,
+    "overlap": 200,
+    "reranker": true,
+    "recall@k": 0.857,
+    "mrr": 0.69
+  },
+  {
+    "chunk_size": 1500,
+    "overlap": 300,
+    "reranker": false,
+    "recall@k": 1.0,
+    "mrr": 0.624
+  },
+  {
+    "chunk_size": 1500,
+    "overlap": 300,
+    "reranker": true,
+    "recall@k": 0.857,
+    "mrr": 0.762
+  },
+  {
+    "chunk_size": 2000,
+    "overlap": 400,
+    "reranker": false,
+    "recall@k": 0.857,
+    "mrr": 0.595
+  },
+  {
+    "chunk_size": 2000,
+    "overlap": 400,
+    "reranker": true,
+    "recall@k": 0.857,
+    "mrr": 0.762
+  }
+]
